@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("")
+data = pd.read_csv("a6-project-lamp/premier_league_data.csv")
 x = data["Age"]
 y = data["GIs"]
 
