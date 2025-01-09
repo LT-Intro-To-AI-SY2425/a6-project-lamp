@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 data = pd.read_csv("a6-project-lamp-1/premier-player-23-24.csv")
-x = data["Age"].values
-y = data["GIs"].values
+x = data["Age"].values.values
+y = data["GIs"].values.values
 
 plt.figure(figsize=(5,4))
 
